@@ -7,17 +7,20 @@ from selenium.webdriver.common.by import By
 from time import sleep
 
 # Function to check internet connectivity
+import socket
+
 def check_internet():
     try:
-        urllib.request.urlopen('http://216.58.192.142', timeout=10)
+        urllib.request.urlopen('https://www.google.com', timeout=10)
         return True
-    except urllib.request.URLError:
+    except (urllib.request.URLError, socket.timeout):
         return False
+
 
 # Initialize the Chrome driver
 chrome_options = Options()
 chrome_options.add_argument('--log-level=3')
-chrome_options.headless = False
+chrome_options.headless = True
 path = r"C:\\Users\\User\\OneDrive\\Desktop\\jarvis\\jarvis_basic\\database\\chromedriver.exe"
 service = webdriver.chrome.service.Service(path)
 driver = webdriver.Chrome(service=service, options=chrome_options)
