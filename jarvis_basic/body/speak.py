@@ -69,4 +69,4 @@ else:
         engine.runAndWait()
 
 # Example usage
-Speak("Hello, this is an example text.")
+# Speak("Hello, this is an example text.")
