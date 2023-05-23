@@ -17,9 +17,13 @@ def MainExcecution():
             Data = MicExecution()
             Data = str(Data)
 
-            if "what is" in Data or "where is"in Data or "answer" in Data:
+            if len(Data)<3:
+                pass
+
+            elif "what is" in Data or "where is" in Data or "Question" in Data or "answer" in Data:
                 Reply = QuestionAnswer(Data)
                 Speak(Reply)
+                
             else:
                 Reply =ReplyBrain(Data)
                 # print(Reply)
