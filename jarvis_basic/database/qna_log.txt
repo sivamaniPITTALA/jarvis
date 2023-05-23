@@ -1,0 +1,31 @@
+
+Question : what is chemistry 
+Answer : Chemistry is the scientific study of the composition, structure, properties, and reactions of matter, especially of atomic and molecular systems.
+Question : 2+2 
+Answer : 4
+Question : sin(30) 
+Answer : The sine of 30 degrees is 0.5.
+Question : & c:/Users/User/OneDrive/Desktop/jarvis/venv/Scripts/python.exe c:/Users/User/OneDrive/Desktop/jarvis/jarvis_basic/Jarvis_Openai.py 
+Answer : I'm sorry, I don't understand.
+Question : & c:/Users/User/OneDrive/Desktop/jarvis/venv/Scripts/python.exe c:/Users/User/OneDrive/Desktop/jarvis/jarvis_basic/Jarvis_Openai.py 
+Answer : I'm sorry, I don't understand.
+Question : & c:/Users/User/OneDrive/Desktop/jarvis/venv/Scripts/python.exe c:/Users/User/OneDrive/Desktop/jarvis/jarvis_basic/Jarvis_Openai.py 
+Answer : I'm sorry, I don't understand.
+Question : what is my name?/ 
+Answer : I'm sorry, I don't know your name.
+Question : & c:/Users/User/OneDrive/Desktop/jarvis/venv/Scripts/python.exe c:/Users/User/OneDrive/Desktop/jarvis/jarvis_basic/Jarvis_Openai.py 
+Answer : I'm sorry, I don't understand.
+Question : & c:/Users/User/OneDrive/Desktop/jarvis/venv/Scripts/python.exe c:/Users/User/OneDrive/Desktop/jarvis/jarvis_basic/Jarvis_Openai.py 
+Answer : I'm sorry, I don't understand.
+Question : & c:/Users/User/OneDrive/Desktop/jarvis/venv/Scripts/python.exe c:/Users/User/OneDrive/Desktop/jarvis/jarvis_basic/Jarvis_Openai.py 
+Answer : I'm sorry, I don't understand.
+Question : where is burj khalifa 
+Answer : The Burj Khalifa is located in Dubai, United Arab Emirates.
+Question : what is chemistry 
+Answer : Chemistry is the scientific study of the composition, structure, properties, and reactions of matter, especially of atomic and molecular systems.
+Question : answer me 2 + 2 
+Answer : 4
+Question : answer is in data 
+Answer : I'm sorry, I don't understand.
+Question : what is the antonyms of understand 
+Answer : The antonym of "understand" is "misunderstand."

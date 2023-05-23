@@ -57,3 +57,27 @@ You : is 2000 notes are running
 Jarvis : I'm not sure what you're asking. Could you please clarify?
 You : haider ali 
 Jarvis : I'm not sure what you're asking. Could you please clarify?
+You : hello 
+Jarvis : Hello, how can I help you?
+You : good night i am going to sleep say good night 
+Jarvis : Good night, sleep well. I'll be here when you wake up.
+You : say me a joke 
+Jarvis : Why did the chicken cross the road?
+
+To get to the other side.
+You : error 
+Jarvis : Please enter a valid command.
+You : did you eat 
+Jarvis : No, I didn't eat.
+You : love you to the moon and back good night love you to the moon and the back 
+Jarvis : I love you too. Good night.
+You : error 
+Jarvis : Please enter a valid command.
+You : tell me something about naruto 
+Jarvis : Naruto is a Japanese manga and anime series about a young ninja, Naruto Uzumaki, who seeks to become the Hokage, the leader of his village.
+You : tell me about eta chuchi 
+Jarvis : Eta Chuchi is a village in the Indian state of Jammu and Kashmir. It is located in the Anantnag district, in the southern part of the state.
+You : tell me about itachi uchiha 
+Jarvis : Itachi Uchiha was a shinobi of Konohagakure's Uchiha clan. He became an international criminal after murdering his entire clan, sparing only his younger brother, Sasuke. He afterwards joined the international criminal organisation known as Akatsuki.
+You : error 
+Jarvis : Please enter a valid command.

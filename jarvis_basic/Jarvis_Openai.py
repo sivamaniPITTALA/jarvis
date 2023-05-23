@@ -1,4 +1,5 @@
 from Brain.AIBrain import ReplyBrain
+from Brain.Qna import QuestionAnswer
 from Body.Listen import MicExecution
 print(">> Satring The Jarvis : Wait For Some Seconds")
 from Body.Speak import Speak
@@ -15,9 +16,14 @@ def MainExcecution():
         try:
             Data = MicExecution()
             Data = str(Data)
-            Reply =ReplyBrain(Data)
-            # print(Reply)
-            Speak(Reply)
+
+            if "what is" in Data or "where is"in Data or "answer" in Data:
+                Reply = QuestionAnswer(Data)
+                Speak(Reply)
+            else:
+                Reply =ReplyBrain(Data)
+                # print(Reply)
+                Speak(Reply)
         except:
             print("ERROR")
 
