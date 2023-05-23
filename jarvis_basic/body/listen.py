@@ -2,7 +2,7 @@ import speech_recognition as sr #pip install speechrecognition
 from googletrans import Translator#pip install googletrans==3.1.0a0
 
 # Function 1: Listen - Detects and recognizes speech in any language
-def listen():
+def Listen():
     r = sr.Recognizer()
 
     with sr.Microphone() as source:
@@ -27,22 +27,27 @@ def translate_to_english(text):
     return translated_text
 
 # Function 3: Connect - Main function to execute the program
-def connect():
-    query = listen()  # Call the Listen function to get the query
+# def connect():
+#     query = Listen()  # Call the Listen function to get the query
 
-    if query == "error":
-        print("Error occurred during speech recognition.")
-        return
+#     if query == "error":
+#         print("Error occurred during speech recognition.")
+#         return
 
-    print("Query:", query)
+#     print("Query:", query)
 
-    if query.isalpha():
-        print("Query is in English.")
-    else:
-        print("Query is in another language. Translating to English...")
-        translated_query = translate_to_english(query)
-        print("Translated Query:", translated_query)
+#     if query.isalpha():
+#         print("Query is in English.")
+#     else:
+#         print("Query is in another language. Translating to English...")
+#         translated_query = translate_to_english(query)
+#         print("Translated Query:", translated_query)
 
-# Execute the Connect function when the script is run directly
-if __name__ == "__main__":
-    connect()
+# # Execute the Connect function when the script is run directly
+# if __name__ == "__main__":
+#     connect()
+
+def MicExecution():
+    query = Listen()
+    data = translate_to_english(query)
+    return data

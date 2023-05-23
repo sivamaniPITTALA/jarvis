@@ -25,16 +25,15 @@ path = r"C:\\Users\\User\\OneDrive\\Desktop\\jarvis\\jarvis_basic\\database\\chr
 service = webdriver.chrome.service.Service(path)
 driver = webdriver.Chrome(service=service, options=chrome_options)
 driver.maximize_window()
+def Speak(Text): # Check internet connectivity
+    if check_internet():
+        website = "https://ttsmp3.com/text-to-speech/British%20English/"
+        driver.get(website)
 
-# Check internet connectivity
-if check_internet():
-    website = "https://ttsmp3.com/text-to-speech/British%20English/"
-    driver.get(website)
+        ButtonSelection = Select(driver.find_element(by=By.XPATH, value='/html/body/div[4]/div[2]/form/select'))
+        ButtonSelection.select_by_visible_text('British English / Emma')
 
-    ButtonSelection = Select(driver.find_element(by=By.XPATH, value='/html/body/div[4]/div[2]/form/select'))
-    ButtonSelection.select_by_visible_text('British English / Emma')
-
-    def Speak(Text):
+        # def Speak(Text):
         lengthoftext = len(str(Text))
         if lengthoftext == 0:
             pass
@@ -60,9 +59,9 @@ if check_internet():
             else:
                 sleep(2)  # Add an appropriate value for sleep if lengthoftext is less than or equal to -120
 
-else:
+    else:
     # Fallback to system voices
-    def Speak(Text):
+    # def Speak(Text):
         engine = pyttsx3.init()
         print("\nSystem AI: " + Text + "\n")
         engine.say(Text)

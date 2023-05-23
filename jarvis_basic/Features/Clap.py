@@ -103,9 +103,9 @@ def Tester():
         kk = tt.listen()
         if "True-Mic" == kk:
             print("\n> Clap Deltected : Staring Jarvis\n")
-            os.startfile(r"jarvis_basic\jarvis.py")
-            # return "True-mic" 
-            break
-            time.sleep(1)
+            # os.startfile(r"jarvis_basic\jarvis.py")
+            return "True-mic" 
+            # break
+            # time.sleep(1)
 
 Tester()

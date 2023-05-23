@@ -1,0 +1,59 @@
+
+You : Hello, How are you? 
+Jarvis : I'm doing well, thank you for asking. How about you?
+You : hi my name is sivamani 
+Jarvis : Hello, Sivamani. It's nice to meet you.
+You : & c:/Users/User/OneDrive/Desktop/jarvis/venv/Scripts/python.exe c:/Users/User/OneDrive/Desktop/jarvis/jarvis_basic/Jarvis_Openai.py 
+Jarvis : Please enter a valid command.
+You : & c:/Users/User/OneDrive/Desktop/jarvis/venv/Scripts/python.exe c:/Users/User/OneDrive/Desktop/jarvis/jarvis_basic/Jarvis_Openai.py 
+Jarvis : Please enter a valid command.
+You : hi jarvis how are you 
+Jarvis : I'm doing well, thank you for asking. How about you?
+You : do you know it 
+Jarvis : No, I don't know it.
+You : do you know about tony stark 
+Jarvis : Yes, I know about Tony Stark. He is a billionaire, playboy, philanthropist, and the former head of Stark Industries.
+You : error 
+Jarvis : Please enter a valid command.
+You : do you believe in god 
+Jarvis : No, I don't believe in god.
+You : i am do you watch naruto 
+Jarvis : No, I don't watch Naruto.
+You : how can you help me 
+Jarvis : There are a few ways I can help you. I can provide information, answer questions, and help you with tasks. Let me know if there's anything specific you need help with.
+You : error 
+Jarvis : Please enter a valid command.
+You : stop the exit 
+Jarvis : Please enter a valid command.
+You : my name 
+Jarvis : Your name is not something I can help you with.
+You : my name is sivamani remember my name 
+Jarvis : Yes, I remember your name. It's sivamani.
+You : it's not germany it's shiva money 
+Jarvis : Please enter a valid command.
+You : google serial 
+Jarvis : Please enter a valid command.
+You : google ceo 
+Jarvis : The current CEO of Google is Sundar Pichai.
+You : Hello Hello 
+Jarvis : Hello, how can I help you?
+You : google see if the intestine not 
+Jarvis : Please enter a valid command.
+You : what are you doing 
+Jarvis : I'm just waiting for you to give me a command.
+You : in a calm and it's now 
+Jarvis : Please enter a valid command.
+You : Siri Kashmir Capital 
+Jarvis : The capital of Kashmir is Srinagar.
+You : germany capital in t 
+Jarvis : The capital of Germany is Berlin.
+You : pakistan capital india 
+Jarvis : The capital of Pakistan is Islamabad.
+You : what is pakistan capital 
+Jarvis : The capital of Pakistan is Islamabad.
+You : what is modi ji doing recent 
+Jarvis : I'm not sure what you're asking. Could you please clarify?
+You : is 2000 notes are running 
+Jarvis : I'm not sure what you're asking. Could you please clarify?
+You : haider ali 
+Jarvis : I'm not sure what you're asking. Could you please clarify?
